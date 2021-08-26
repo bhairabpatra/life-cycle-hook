@@ -1,0 +1,20 @@
+
+
+Life Cycle hook
+  contsructor()
+  ngoninit()
+  ngOnchnage()
+  ngDocheck()
+  ngaftercontentInit()
+  ngaftercontentChecked()
+  ngaftterviewinit()
+  ngafterinintChecked()
+
+
+What is JIT
+JIT stands for just in time compilation.
+
+JIT is the default method Angular uses to compile Angular code for the browser. Specifically, JIT runs before the app is run in the browser. When a user visits your web URL, all of the JavaScript assets are first retrieved from the server. Once the browser has everything it needs, it compiles the JavaScript code into a binary format which can then be executed by the browser's interpreter. In this sense, JIT compiles the program as it is being delivered to your browser. For these reasons, we refer to this as JIT because everything happens in the browser.
+
+What is AOT
+AOT stands for ahead of time compilation. AOT is not specific to Angular and simply refers to the act of compiling a higher-level language into a binary format that can be executed natively. Using AOT, code is compiled before it is run. This takes a significant amount of work off the runtime engine as the interpreter doesn't need to worry about compiling any assets before the content is ultimately rendered.
